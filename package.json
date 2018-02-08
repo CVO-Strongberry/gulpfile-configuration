@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-less": "^3.4.0",
     "gulp-plumber": "^1.2.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.4",
