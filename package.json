@@ -1,0 +1,14 @@
+{
+  "name": "gulpfile-configuration",
+  "version": "1.0.0",
+  "description": "Added task of compiling sass in kss in development mode.",
+  "keywords": ["gulp", "sass"],
+  "author": "Vlad Chernikov",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
