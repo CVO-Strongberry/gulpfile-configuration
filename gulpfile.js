@@ -1,11 +1,6 @@
-const props = {
+const System = {
     gulp: require('gulp'),
-    plugins: require('gulp-load-plugins'),
-    path: require('./system/path')
+    plugins: require('gulp-load-plugins')(),
+    path: require('./gulp-manager/path')
 };
-
-const getTask = require('./system/system');
-
-props.gulp.task('sass:development', getTask('sass'));
-props.gulp.task('less:development', getTask('less:development'));
-props.gulp.task('stylus:development', getTask('stylus:development'));
+System.gulp.task(process.argv[2], require('./gulp-manager/gulp-tasks/' + process.argv[2])(System));
