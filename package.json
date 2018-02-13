@@ -9,7 +9,7 @@
   "author": "Vlad Chernikov",
   "license": "MIT",
   "scripts": {
-    "inst-modules": "npm i -y --save-dev"
+    "install-node_modules": "npm i -y --save-dev"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
